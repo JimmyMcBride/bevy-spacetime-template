@@ -1,0 +1,52 @@
+# Rust / Cargo
+target/
+Cargo.lock
+**/*.rs.bk
+
+# SpacetimeDB generated bindings
+# Uncomment if you prefer to regenerate rather than commit:
+# client/src/module_bindings/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug files
+*.pdb
+*.dSYM/
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+spacetime-logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
